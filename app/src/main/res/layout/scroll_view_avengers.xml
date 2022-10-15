@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgSteve"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/akshaya_patra" />
+            <TextView
+                android:id="@+id/txtSteve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akshaya Patra Foundation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgSteve"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txtMob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9302899230"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgSteve"
+                android:layout_below="@+id/txtSteve"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : NehruNagar,Bilaspur(C.G.)"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgSteve"
+                android:layout_below="@+id/txtMob"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnSteve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More Info"
+                android:textStyle="bold"
+                android:background="@color/teal_200"
+                android:layout_below="@+id/imgSteve"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/isha" />
+            <TextView
+                android:id="@+id/txtThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isha Foundation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgThor"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txtMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtThor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgThor"
+                android:text="9487622230"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEmailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : Kumar Swami Layout,Banglore(Karnatka)"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgThor"
+                android:layout_below="@+id/txtMobile"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnThor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More Info"
+                android:textStyle="bold"
+                android:background="@color/teal_200"
+                android:layout_below="@+id/imgThor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"/>
+            
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHulk"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/oxfam_india" />
+
+            <TextView
+                android:id="@+id/txtHulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgHulk"
+                android:text="Oxfam India"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtMn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtHulk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imgHulk"
+                android:text="2402889230"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtEid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : KarolBagh,NewDelhi"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgHulk"
+                android:layout_below="@+id/txtMn"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnHulk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHulk"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/teal_200"
+                android:text="More Info"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgBlack"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/milan"/>
+            <TextView
+                android:id="@+id/txtBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milaan foundation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgBlack"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txtM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9302899230"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgBlack"
+                android:layout_below="@+id/txtBlack"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txtEd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : Worli,Mumbai(M.H.)"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/imgBlack"
+                android:layout_below="@+id/txtM"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btnBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="More Info"
+                android:textStyle="bold"
+                android:background="@color/teal_200"
+                android:layout_below="@+id/imgBlack"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit the app"
+                android:layout_below="@+id/btnBlack"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ff1744"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

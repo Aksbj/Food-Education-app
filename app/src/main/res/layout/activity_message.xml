@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akshaya Patra Foundation"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShow"
+        android:layout_marginTop="10dp"
+        android:text="Tabassum’s parents work as laborers. Her schooling was never considered important. When the school in her village started providing a mid-day meal, her parents were happy to send her to school. All thanks to Akshaya Patra Foundation, which aims to bring children to school, by providing them wholesome food every single school day. Their world’s largest (nonprofit) mid-day meal program serves to over 1.6 million children across 12 states in India. Their mission is to feed 5 million children by 2020. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+</RelativeLayout>

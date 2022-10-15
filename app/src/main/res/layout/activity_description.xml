@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Description">
+    <TextView
+        android:id="@+id/txtS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isha Education"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp" />
+    <TextView
+        android:id="@+id/descrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtS"
+        android:layout_marginTop="10dp"
+        android:text="Bairavi’s father is a daily wage laborer but he can’t work regularly because of his ill-health. Even one meal a day is hard for the family to arrange. This left Bhairavi malnourished and anemic. After attending a school run by Isha Vidya and intake of nutritious mid-day meals, she started gaining strength and is no longer  anemic. Isha Vidhya runs eight schools, with more than 3,488 students and provides them one tasty and nutritious meal every day.  Donate to make sure a child can access his basic right to a nutritious hot meal."
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

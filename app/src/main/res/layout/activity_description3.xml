@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Description3">
+    <TextView
+        android:id="@+id/txtShowwww"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milan Foundation"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="80dp" />
+    <TextView
+        android:id="@+id/descriptionnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtShowwww"
+        android:layout_marginTop="10dp"
+        android:text="Savitri had to drop out of school after 8th grade. Due to  poverty, her family could hardly make ends meet, which reduced her childhood to doing household chores. When Swarachna Learning and Resource Centre by Milaan convinced her parents to send her back to school, she was also enrolled in the mid-day meal program. With regular nutrition, she began to get stronger and perform well in her studies. SLRC operates in 13 villages of Uttar Pradesh, catering to over 300 children. "
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
